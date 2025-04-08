@@ -1,10 +1,22 @@
-# D_LI_Init
-<center>Dynamic Initialization for LiDAR-inertial SLAM
-</center>
-
 <div align="center">
-  <img src="image/Overview.png" width="90%">
+  <h1>D-LI-Init</h1>
+  <h2>Dynamic Initialization for LiDAR-inertial SLAM</h2>
+  <p><strong>This work has been accepted to <i>IEEE/ASME Transactions on Mechatronics (TMECH 2025)</i>.</strong></p>
+  <br>
+
+  [![Code](https://img.shields.io/badge/Code-GitHub-blue?logo=github)](https://github.com/snakehaihai/D-LI-Init)
+  [![arXiv](https://img.shields.io/badge/arXiv-2504.01451-b31b1b.svg)](https://arxiv.org/abs/2504.01451)
 </div>
+
+
+<p align="center">
+  <img src="image/motivations.png" width="80%">
+  <br><em>Demonstration of real-world scenarios where the robot requires dynamic initialization, along with point cloud maps created using SOTA algorithms and ours.</em>
+</p>
+<p align="center">
+  <img src="image/Overview.png" width="80%">
+  <br><em>System Overview: Robust Dynamic Initialization Pipeline</em>
+</p>
 
 ## Abstract
 The accuracy of the initial state, including initial velocity, gravity direction, and IMU biases, is critical for the initialization of LiDAR-inertial SLAM systems. Inaccurate initial values can reduce initialization speed or lead to failure. When the system faces urgent tasks, robust and fast initialization is required while the robot is moving, such as during the swift assessment of rescue environments after natural disasters, bomb disposal, and restarting LiDAR-inertial SLAM in rescue missions. However, existing initialization methods usually require the platform to remain stationary, which is ineffective when the robot is in motion. To address this issue, this paper introduces a robust and fast dynamic initialization method for LiDAR-inertial systems (D-LI-Init). This method iteratively aligns LiDAR-based odometry with IMU measurements to achieve system initialization. To enhance the reliability of the LiDAR odometry module, the LiDAR and gyroscope are tightly integrated within the ESIKF framework. The gyroscope compensates for rotational distortion in the point cloud. Translational distortion compensation occurs during the iterative update phase, resulting in the output of LiDAR-gyroscope odometry. The proposed method can initialize the system no matter the robot is moving or stationary. Experiments on public datasets and real-world environments demonstrate that the D-LI-Init algorithm can effectively serve various platforms, including vehicles, handheld devices, and UAVs. D-LI-Init completes dynamic initialization regardless of specific motion patterns.
@@ -65,10 +77,15 @@ Download our test bags here: Indoor [Baidu](https://pan.baidu.com/s/1wUiKRWQqie2
 ### 5. Example results 
 
 
-### Citation
+### 📖 Citation
 If you use D-LI-Init for any academic work, please cite our original [paper]()
 ```
-
+@article{xu2025dynamic,
+  author       = {Jie Xu and Yongxin Ma and Yixuan Li and Xuanxuan Zhang and Jun Zhou and Shenghai Yuan and Lihua Xie},
+  title        = {Dynamic Initialization for LiDAR-inertial SLAM},
+  journal      = {IEEE/ASME Transactions on Mechatronics},
+  year         = {2025}
+}
 ```
 
 ### Acknowledgements 
