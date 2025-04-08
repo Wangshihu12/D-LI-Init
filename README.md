@@ -8,6 +8,11 @@
   [![arXiv](https://img.shields.io/badge/arXiv-2504.01451-b31b1b.svg)](https://arxiv.org/abs/2504.01451)
 </div>
 
+
+<p align="center">
+  <img src="image/motivations.png" width="80%">
+  <br><em>Demonstration of real-world scenarios where the robot requires dynamic initialization, along with point cloud maps created using SOTA algorithms and ours.</em>
+</p>
 <p align="center">
   <img src="image/Overview.png" width="80%">
   <br><em>System Overview: Robust Dynamic Initialization Pipeline</em>
