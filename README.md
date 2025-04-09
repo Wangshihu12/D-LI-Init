@@ -6,6 +6,8 @@
 
   [![Code](https://img.shields.io/badge/Code-GitHub-blue?logo=github)](https://github.com/snakehaihai/D-LI-Init)
   [![arXiv](https://img.shields.io/badge/arXiv-2504.01451-b31b1b.svg)](https://arxiv.org/abs/2504.01451)
+  [![arXiv](https://img.shields.io/badge/%E5%B0%8F%E7%BA%A2%E4%B9%A6-video-ED1C24.svg)](http://xhslink.com/a/K2wFdXult2M9)
+  
 </div>
 
 
