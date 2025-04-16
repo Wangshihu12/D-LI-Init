@@ -80,14 +80,18 @@ Download our test bags here: Indoor [Baidu](https://pan.baidu.com/s/1wUiKRWQqie2
 
 
 ### 📖 Citation
-If you use D-LI-Init for any academic work, please cite our original [paper]()
+If you use D-LI-Init for any academic work, please cite our original [paper](https://ieeexplore.ieee.org/document/10965521)
 ```
-@article{xu2025dynamic,
-  author       = {Jie Xu and Yongxin Ma and Yixuan Li and Xuanxuan Zhang and Jun Zhou and Shenghai Yuan and Lihua Xie},
-  title        = {Dynamic Initialization for LiDAR-inertial SLAM},
-  journal      = {IEEE/ASME Transactions on Mechatronics},
-  year         = {2025}
-}
+@ARTICLE{10965521,
+  author={Xu, Jie and Ma, Yongxin and Li, Yixuan and Zhang, Xuanxuan and Zhou, Jun and Yuan, Shenghai and Xie, Lihua},
+  journal={IEEE/ASME Transactions on Mechatronics}, 
+  title={Dynamic Initialization for LiDAR-Inertial SLAM}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-12},
+  keywords={Odometry;Laser radar;Simultaneous localization and mapping;Accuracy;Vehicle dynamics;Gyroscopes;Gravity;Point cloud compression;Distortion;State estimation;Dynamic initialization;LiDAR-gyroscope odometry;LiDAR-inertial;simultaneous location and mapping (SLAM)},
+  doi={10.1109/TMECH.2025.3554878}}
 ```
 
 ### Acknowledgements 
